@@ -1,6 +1,6 @@
 # IntelliDecor
 IntelliDecor is an interior design service that utilizes AI-powered technology to help clients furnish their empty rooms. By leveraging OpenAI's API and stable diffusion techniques, clients can generate multiple design options and explore a wide variety of alternatives without the need for physical setup and take down of furniture and decor.
-
+ 
 ## Demo
 https://user-images.githubusercontent.com/63944541/227436973-d49c58fa-dc97-413a-94f7-99351d1e0eb4.mp4
 
