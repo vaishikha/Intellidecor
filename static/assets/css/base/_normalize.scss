@@ -1,9 +1,11 @@
 /*! normalize.css v3.0.2 | MIT License | git.io/normalize */
 
 html {
-  font-family: sans-serif;
-  -ms-text-size-adjust: 100%;
-  -webkit-text-size-adjust: 100%;
+  font-family: sans-serif; /* For IE */
+  -ms-text-size-adjust: 100%; /* For Firefox */
+  -webkit-text-size-adjust: 100%; /* For Safari */
+  -moz-text-size-adjust: 100%; /* For Firefox */
+  text-size-adjust: 100%; /* For other browsers */
 }
 
 body {
@@ -150,6 +152,7 @@ html input[type="button"],
 input[type="reset"],
 input[type="submit"] {
   -webkit-appearance: button;
+  appearance: button;
   cursor: pointer;
 }
 
@@ -181,6 +184,7 @@ input[type="number"]::-webkit-outer-spin-button {
 
 input[type="search"] {
   -webkit-appearance: textfield;
+  appearance: textfield;
   -moz-box-sizing: content-box;
   -webkit-box-sizing: content-box;
   box-sizing: content-box;
