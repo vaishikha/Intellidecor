@@ -2,10 +2,9 @@
 
 html {
   font-family: sans-serif; /* For IE */
-  -ms-text-size-adjust: 100%; /* For Firefox */
   -webkit-text-size-adjust: 100%; /* For Safari */
-  -moz-text-size-adjust: 100%; /* For Firefox */
-  text-size-adjust: 100%; /* For other browsers */
+  -ms-text-size-adjust: 100%; /* For IE */
+  text-size-adjust: 100%; /* For modern browsers */
 }
 
 body {
